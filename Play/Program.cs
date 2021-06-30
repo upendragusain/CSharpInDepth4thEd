@@ -15,8 +15,9 @@ namespace Play
             //int i;
 
             //Enumeration.Tests.Run();
-            Enumeration.Tests.RunConversion();
+            //Enumeration.Tests.RunConversion();
 
+            FuncVariance.Tests.Run();
         }
 
     }
