@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Play
 {
@@ -17,7 +18,16 @@ namespace Play
             //Enumeration.Tests.Run();
             //Enumeration.Tests.RunConversion();
 
-            FuncVariance.Tests.Run();
+            //IEnumerable<string> strings = new[] { "a" , "b", "c"};
+            //IEnumerable<object> objects = strings;
+            ////ICollection<object> lObjects = objects;
+            ////lObjects.Add
+
+            //List<object> objects2 = strings.Where(_ => _.Length >= 1).ToList<object>();
+
+            //FuncVariance.Tests.Run();
+
+            ContravariantComparison.Run();
         }
 
     }
